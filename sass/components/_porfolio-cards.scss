@@ -1,0 +1,51 @@
+.cards__project {
+  font-weight: getFW(w700);
+  font-size: getFS(f18);
+  line-height: getLH(lh2);
+  letter-spacing: 6%;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+}
+.cards__description {
+  color: getColor(secondary);
+  font-size: getFS(f16);
+  line-height: getLH(lh1875);
+  letter-spacing: 6%;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+  flex-basis: calc((100% - 60px) / 3);
+  justify-content: center;
+}
+.cards__figcaption-border {
+  border-bottom: getColor(cardsborder)  solid 1px;
+  border-left: getColor(cardsborder) solid 1px;
+  border-right: getColor(cardsborder) solid 1px;
+  background-color: getColor(mwhite);
+  position: relative;
+}
+
+.cards {
+  position: relative;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  &:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+  }
+  & img {
+    display: block;
+  }
+}

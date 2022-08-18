@@ -1,0 +1,21 @@
+.footer__address-section {
+  display: flex;
+  justify-items: left;
+}
+.footer__address {
+  color: getColor(mwhite);
+  font-size: getFS(f14);
+  line-height: getLH(lh171);
+  letter-spacing: 3%;
+  padding-top: 20px;
+  width: 246px;
+}
+.footer__contact {
+  color: getColor(white60);
+  font-size: getFS(f14);
+  line-height: getLH(lh171);
+  letter-spacing: 3%;
+  text-decoration: none;
+  padding-top: 9px;
+  justify-content: left;
+}

@@ -1,0 +1,11 @@
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: getColor(mblack);
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  ul {
+    list-style: none;
+  }
