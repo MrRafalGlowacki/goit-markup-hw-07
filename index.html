@@ -20,31 +20,29 @@
   </head>
   <body>
     <header class="header-border">
-      <div class="container header">
+      <div class="header container">
         <a href="index.html" class="logo">
           Web<span class="logo__studio-header">Studio</span>
         </a>
         <nav>
-          <ul class="nav">
+          <ul class="header__nav">
             <li>
-              <a class="nav__item nav__item--active" href="index.html"
-                >Agencja</a
-              >
+              <a class="header__nav-item header__nav-item--active" href="index.html">Agencja</a>
             </li>
             <li>
-              <a class="nav__item" href="portfolio.html">Portfolio</a>
+              <a class="header__nav-item" href="portfolio.html">Portfolio</a>
             </li>
-            <li><a class="nav__item" href="kontakt.html">Kontakt</a></li>
+            <li><a class="header__nav-item" href="kontakt.html">Kontakt</a></li>
           </ul>
         </nav>
-        <div class="contacts-header">
-          <a href="mailto:info@devstudio.com" class="contacts-header__link">
+        <div class="header__contacts">
+          <a href="mailto:info@devstudio.com" class="header__contacts-link">
             <svg width="16" height="12">
               <use href="images/icons.svg#envelope"></use>
             </svg>
             info@devstudio.com</a
           >
-          <a href="tel:+48111111111" class="contacts-header__link">
+          <a href="tel:+48111111111" class="header__contacts-link">
             <svg width="10" height="16">
               <use href="images/icons.svg#smartphone"></use>
             </svg>
@@ -54,12 +52,12 @@
       </div>
     </header>
     <main>
-      <section class="header-main-container">
-        <h1 class="header-main">
+      <section class="main-header__container">
+        <h1 class="main-header">
           EFEKTYWNE ROZWIĄZANIA <br />
           DLA WASZEGO BIZNESU
         </h1>
-        <button type="button" class="header-main__order-button" data-modal-open>
+        <button type="button" class="main-header__order-button" data-modal-open>
           Zamów usługę
         </button>
       </section>
@@ -356,44 +354,44 @@
       </section>
       <section class="section container">
         <h2 class="header-secondary">Nasi klienci</h2>
-        <div class="client-container">
+        <div class="client__container">
           <div>
-            <a href="" class="client-logo">
+            <a href="" class="client__logo">
               <svg>
                 <use href="images/icons.svg#client1"></use>
               </svg>
             </a>
           </div>
           <div>
-            <a href="" class="client-logo">
+            <a href="" class="client__logo">
               <svg>
                 <use href="images/icons.svg#client2"></use>
               </svg>
             </a>
           </div>
           <div>
-            <a href="" class="client-logo">
+            <a href="" class="client__logo">
               <svg>
                 <use href="images/icons.svg#client3"></use>
               </svg>
             </a>
           </div>
           <div>
-            <a href="" class="client-logo">
+            <a href="" class="client__logo">
               <svg>
                 <use href="images/icons.svg#client4"></use>
               </svg>
             </a>
           </div>
           <div>
-            <a href="" class="client-logo">
+            <a href="" class="client__logo">
               <svg>
                 <use href="images/icons.svg#client5"></use>
               </svg>
             </a>
           </div>
           <div>
-            <a href="" class="client-logo">
+            <a href="" class="client__logo">
               <svg>
                 <use href="images/icons.svg#client6"></use>
               </svg>
@@ -490,14 +488,14 @@
           </label>
           <label class="modal__label"
             ><span class="modal__label--span">Telefon</span>
-            <svg  class="modal__label--svg">
+            <svg class="modal__label--svg">
               <use href="images/icons.svg#phone-form"></use>
             </svg>
             <input type="tel" name="phone" class="modal__input" required
           /></label>
           <label class="modal__label"
             ><span class="modal__label--span">Email</span>
-            <svg  class="modal__label--svg">
+            <svg class="modal__label--svg">
               <use href="images/icons.svg#email-form"></use>
             </svg>
             <input type="email" name="email" class="modal__input" required
